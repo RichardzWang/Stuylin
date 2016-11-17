@@ -1,0 +1,22 @@
+h1 {
+   color: #2394A2;   
+}  
+h2 {
+   font-size: 5em;
+}
+ul {
+   background: #C0BB9B;
+   padding: 2em;
+}
+ul li {
+   background: #D79E43;
+   padding: 0.5em;
+   margin: 0.2em;
+}
+p {
+  margin-top: 10em; 
+  font-size: 0.5em;
+}
+body {
+  background-color: #BF501B;
+}
