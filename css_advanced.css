@@ -1,0 +1,46 @@
+body {
+background-color: green;
+}
+.main {
+font-family: "Comic Sans MS",sans-serif;
+}
+.head1 {
+border-radius: 0.3em;		
+}
+.head2 {
+background-color: lightgreen;
+border-radius: 0.3em;
+clear:left;
+}
+.head3 {
+background-color: lightblue;
+border-radius: 0.3em;
+}
+#subtitles {
+opacity: 0.5;
+}
+#subtitles:hover {
+color: red;	  
+opacity: 1;
+}
+a:hover {
+color: yellow;
+}
+img {
+float:right;
+width:180px;
+length:180px;
+}
+#spooky {
+animation-name: scary;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes scary {
+0% {color:white}
+25% {color:green}
+50% {color:orange}
+75% {color:#af111c}
+100% {color:red}
+}
+
